@@ -1,7 +1,7 @@
 <div align="center">
   <img src="https://res.cloudinary.com/upodegd7/image/upload/gold_bangle_polished.jpg" alt="Jewellery Banner" width="100%" style="border-radius:15px; max-height:300px; object-fit:cover; margin-bottom: 20px;">
   
-  <h1>✨ Luxury Jewellery E-Commerce Prototype ✨</h1>
+  <h1> Luxury Jewellery E-Commerce Prototype </h1>
   <p><strong>A premium, high-performance web shopping experience built for modern luxury brands.</strong></p>
   
   [![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://reactjs.org/)
@@ -13,7 +13,7 @@
 
 <br/>
 
-## 📖 Overview
+##  Overview
 
 This project is a modern, responsive **E-Commerce Web Application Prototype** designed specifically for a premium jewellery brand. Developed using **React (Vite)** and **Tailwind CSS**, it delivers a seamless, high-performance shopping experience with a focus on luxury aesthetics and fluid navigation.
 
@@ -21,18 +21,18 @@ The platform relies on **Cloudinary** for scalable, blazingly fast delivery of h
 
 ---
 
-## 🚀 Key Features
+##  Key Features
 
-- 🛍️ **Extensive Product Catalog:** Dedicated and dynamically routed pages for collections including Bangles, Rings, Necklaces, Jhumkas, Mangalsutras, Nosepins, Bridal pieces, and Gifting.
-- 💎 **Premium User Interface:** Features a sleek, modern aesthetic with a sticky luxury header, smooth scrolling, and beautifully interactive product grids.
-- ⚡ **Lightning Fast Media Delivery:** All product imagery is securely hosted, optimized, and auto-scaled via the **Cloudinary CDN** to reduce bandwidth and maximize visual quality.
-- 🔍 **Advanced Filtering & Sorting:** Instantly refine product lists by category, gold purity, and dynamic price sorting.
-- 🛒 **Interactive Shopping Elements:** Wishlist state management, detailed product quick-view modals (with descriptions, sizing, and pricing), and dynamic "Added to Cart" alerts.
-- 📱 **Fully Responsive:** Layouts automatically adapt from large desktop monitors down to mobile devices without losing the luxury feel.
+-  **Extensive Product Catalog:** Dedicated and dynamically routed pages for collections including Bangles, Rings, Necklaces, Jhumkas, Mangalsutras, Nosepins, Bridal pieces, and Gifting.
+-  **Premium User Interface:** Features a sleek, modern aesthetic with a sticky luxury header, smooth scrolling, and beautifully interactive product grids.
+-  **Lightning Fast Media Delivery:** All product imagery is securely hosted, optimized, and auto-scaled via the **Cloudinary CDN** to reduce bandwidth and maximize visual quality.
+-  **Advanced Filtering & Sorting:** Instantly refine product lists by category, gold purity, and dynamic price sorting.
+-  **Interactive Shopping Elements:** Wishlist state management, detailed product quick-view modals (with descriptions, sizing, and pricing), and dynamic "Added to Cart" alerts.
+-  **Fully Responsive:** Layouts automatically adapt from large desktop monitors down to mobile devices without losing the luxury feel.
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 ### **Frontend Framework**
 - **[React 18](https://react.dev/)**: The core UI library for building component-driven interfaces.
@@ -51,7 +51,7 @@ The platform relies on **Cloudinary** for scalable, blazingly fast delivery of h
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 ```text
 src/
@@ -95,7 +95,7 @@ npm run build
 
 ---
 
-## 🎨 Design Philosophy
+##  Design Philosophy
 
 This prototype was built to demonstrate best practices in modern e-commerce UI design for high-end retail:
 * **Micro-interactions:** Subtle hover states, smooth transitions, and modal animations make the application feel alive and responsive.
