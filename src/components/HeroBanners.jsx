@@ -19,7 +19,7 @@ export default function HeroBanners() {
             className="absolute inset-0 w-full h-full object-cover object-center transform hover:scale-105 transition-transform duration-1000"
           />
           {/* Elegant gradient overlay for perfect readability */}
-          <div className="absolute inset-0 bg-linear-to-r from-black/75 via-black/40 to-transparent"></div>
+          <div className="absolute inset-0 bg-gradient-to-r from-black/75 via-black/40 to-transparent"></div>
 
           <div className="relative z-10 max-w-xl p-8 sm:p-12 lg:p-16 text-white space-y-4">
             <span className="inline-block uppercase tracking-widest text-xs sm:text-sm font-semibold bg-brand-orange/90 text-white px-3.5 py-1 rounded-full shadow-md">
@@ -36,7 +36,7 @@ export default function HeroBanners() {
             <div className="flex flex-wrap gap-4 pt-2">
               <Link
                 to="/collections"
-                className="bg-linear-to-r from-brand-orange to-brand-red hover:from-brand-red hover:to-orange-700 text-white px-7 py-3 rounded-full text-base font-semibold shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-0.5 inline-block text-center"
+                className="bg-gradient-to-r from-brand-orange to-brand-red hover:from-brand-red hover:to-orange-700 text-white px-7 py-3 rounded-full text-base font-semibold shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-0.5 inline-block text-center"
               >
                 Explore Collection
               </Link>
@@ -61,7 +61,7 @@ export default function HeroBanners() {
               alt="Bridal Masterpieces"
               className="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-700"
             />
-            <div className="absolute inset-0 bg-linear-to-t from-black/80 via-black/30 to-transparent"></div>
+            <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent"></div>
             <div className="absolute bottom-0 left-0 p-6 sm:p-8">
               <span className="text-xs uppercase tracking-wider text-brand-lightgold font-semibold">
                 Exquisite Bridal
@@ -87,7 +87,7 @@ export default function HeroBanners() {
               alt="Luxury Gifting & Keepsakes"
               className="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-700"
             />
-            <div className="absolute inset-0 bg-linear-to-t from-black/80 via-black/30 to-transparent"></div>
+            <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent"></div>
             <div className="absolute bottom-0 left-0 p-6 sm:p-8">
               <span className="text-xs uppercase tracking-wider text-brand-lightgold font-semibold">
                 Luxury Keepsakes

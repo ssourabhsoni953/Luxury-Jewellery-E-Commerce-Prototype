@@ -56,13 +56,11 @@
   background-position: center;
 }
 
-@layer base {
-  body {
-    background-color: #ffcf5f;
-    background-image: url('https://res.cloudinary.com/upodegd7/image/upload/v1790346721/website-background.jpg');
-    background-size: 550px auto;
-    background-repeat: repeat;
-    background-attachment: fixed;
-    background-position: top center;
-  }
+body {
+  background-color: #ffcf5f;
+  background-image: url('https://res.cloudinary.com/upodegd7/image/upload/v1790346721/website-background.jpg');
+  background-size: 550px auto;
+  background-repeat: repeat;
+  background-attachment: fixed;
+  background-position: top center;
 }
