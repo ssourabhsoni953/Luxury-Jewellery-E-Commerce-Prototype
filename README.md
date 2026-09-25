@@ -65,7 +65,7 @@ src/
 
 ---
 
-## 💻 Running Locally
+##  Running Locally
 
 To run this prototype on your local machine, follow these steps:
 
