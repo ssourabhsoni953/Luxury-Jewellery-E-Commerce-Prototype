@@ -1,0 +1,68 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand-red: #E73F1E;
+  --color-brand-orange: #FB6C00;
+  --color-brand-gold: #F9B637;
+  --color-brand-lightgold: #FFDD9C;
+  --font-sans: "Inter", "Outfit", sans-serif;
+  --font-chicago: 'ChicagoAthletic', 'MyCustomFont', sans-serif;
+  --font-lobster: 'Lobster', cursive, sans-serif;
+  --font-sacrifice: 'Lobster', cursive, sans-serif;
+}
+
+@font-face {
+  font-family: 'Lobster';
+  src: url('./assets/Fonts/Lobster-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'ChicagoAthletic';
+  src: url('./assets/Fonts/Chicago Athletic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'MyCustomFont';
+  src: url('./assets/Fonts/Chicago Athletic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Direct utility classes for convenient usage */
+.font-lobster {
+  font-family: 'Lobster', cursive, sans-serif;
+}
+
+.font-sacrifice {
+  font-family: 'Lobster', cursive, sans-serif;
+}
+
+.font-chicago {
+  font-family: 'ChicagoAthletic', 'MyCustomFont', sans-serif;
+}
+
+.bg-real-diamonds {
+  background-color: #FFDD9C;
+  background-image: url('./assets/diamond-gold-strip.jpg');
+  background-size: 25% auto;
+  background-repeat: repeat;
+  background-position: center;
+}
+
+@layer base {
+  body {
+    background-color: #ffcf5f;
+    background-image: url('src/assets/website-background.jpg');
+    background-size: 550px auto;
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-position: top center;
+  }
+}
