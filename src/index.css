@@ -50,7 +50,7 @@
 
 .bg-real-diamonds {
   background-color: #FFDD9C;
-  background-image: url('./assets/diamond-gold-strip.jpg');
+  background-image: url('https://res.cloudinary.com/upodegd7/image/upload/v1790346721/diamond-gold-strip.jpg');
   background-size: 25% auto;
   background-repeat: repeat;
   background-position: center;
@@ -59,7 +59,7 @@
 @layer base {
   body {
     background-color: #ffcf5f;
-    background-image: url('src/assets/website-background.jpg');
+    background-image: url('https://res.cloudinary.com/upodegd7/image/upload/v1790346721/website-background.jpg');
     background-size: 550px auto;
     background-repeat: repeat;
     background-attachment: fixed;
